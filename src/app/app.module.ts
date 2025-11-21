@@ -14,21 +14,29 @@ import { MatDividerModule } from "@angular/material/divider";
 import { MatIconModule } from "@angular/material/icon";
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './partials/navbar/navbar.component';
+import { MatRadioModule } from '@angular/material/radio';
+import { RegistroAdminComponent } from './partials/registro-admin/registro-admin.component';
+import { RegistroAlumnosComponent } from './partials/registro-alumnos/registro-alumnos.component';
+import { RegistroMaestrosComponent } from './partials/registro-maestros/registro-maestros.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginScreenComponent,
     RegistroUsuariosScreenComponent,
-    NavbarComponent
+    NavbarComponent,
+    RegistroAdminComponent,
+    RegistroAlumnosComponent,
+    RegistroMaestrosComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    BrowserModule,
+    FormsModule,
     MatButtonModule,
-    MatIconModule,
     MatDividerModule,
-    FormsModule
+    MatIconModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
