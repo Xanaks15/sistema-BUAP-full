@@ -16,6 +16,19 @@
   align-items: center;
 }
 
+.forms-registro {
+  display: flex;
+  justify-content: center;   // centra horizontal
+  width: 100%;               // se expande al ancho disponible
+  margin-top: 2rem;          // opcional, separación con los radios
+}
+
+.forms-registro > section {
+  width: 100%;
+  max-width: 600px;          // ajusta según el tamaño de tus formularios
+}
+
+
 .header-registro{
   width: 100vw;
   height: 10vh;
