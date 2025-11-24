@@ -1,5 +1,5 @@
 """
-WSGI config for dev_sistema_escolar_api project.
+WSGI config for sistema_buap_api project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dev_sistema_escolar_api.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sistema_buap_api.settings')
 
 application = get_wsgi_application()

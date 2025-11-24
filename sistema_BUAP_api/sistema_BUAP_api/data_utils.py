@@ -1,4 +1,4 @@
-from dev_sistema_escolar_api.models import *
+from sistema_buap_api.models import *
 import json
 import requests
 import datetime
