@@ -1,15 +1,17 @@
-.wrapper{
-  height: 100%;
+.wrapper {
+  height: auto;
+  /* Allow height to adjust */
   width: 100%;
   //Flex
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  background-color: #FFFFFF;
+  background-color: transparent;
+  /* Remove white bg to use parent card */
 }
 
-.section-registro{
+.section-registro {
   width: 100%;
   height: 100%;
   display: flex;
@@ -18,9 +20,10 @@
   align-items: center;
 }
 
-.body-registro{
+.body-registro {
   width: 100%;
-  height: 90vh;
+  height: auto;
+  /* Remove fixed height */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -29,7 +32,7 @@
   gap: 1.5rem;
 }
 
-.title-user{
+.title-user {
   font-size: 28px;
   text-align: left;
   font-family: Nexa-Bold;
@@ -39,14 +42,14 @@
   opacity: 1;
 }
 
-mat-form-field{
-  width: 100%!important;
-  height: 48px!important;
-  text-align: left!important;
+mat-form-field {
+  width: 100% !important;
+  /* height: 48px!important; Removed fixed height to allow label/hint */
+  text-align: left !important;
 }
 
 //Esto es para las materias
-.title-materias{
+.title-materias {
   font-size: 18px;
   text-align: center;
   font-family: Nexa-Bold;
@@ -56,7 +59,7 @@ mat-form-field{
 }
 
 //Para la sección de botones
-.section-buttons{
+.section-buttons {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -68,9 +71,9 @@ mat-form-field{
 .btn-primary {
   width: 208px;
   height: 48px;
-  background-color: #0092B8!important;
-  border-color: #0092B8!important;
-  border-radius: 8px!important;
+  background-color: #0092B8 !important;
+  border-color: #0092B8 !important;
+  border-radius: 8px !important;
   opacity: 1;
   //Fuente
   text-align: center;
@@ -83,15 +86,15 @@ mat-form-field{
 }
 
 .btn-primary:hover {
-  background-color: #017895!important;
-  border-color: #017895!important;
+  background-color: #017895 !important;
+  border-color: #017895 !important;
 
 }
 
-.btn-danger{
+.btn-danger {
   width: 208px;
   height: 48px;
-  border-radius: 8px!important;
+  border-radius: 8px !important;
   opacity: 1;
   //Fuente
   text-align: center;
